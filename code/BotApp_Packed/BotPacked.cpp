@@ -18,4 +18,4 @@
 #include <utility>
 #include <vector>
 
-int main() { printf("Hello from Bot 2!"); return 0; }
+int main(){printf("Hello from Bot!");return 0;}
