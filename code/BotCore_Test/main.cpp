@@ -1,4 +1,9 @@
+#include <iostream>
+
+using namespace std;
+
 int main()
 {
-	return 0;
+    cout << "Tests are OK\n";
+    return 0;
 }

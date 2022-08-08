@@ -1,0 +1,15 @@
+#! /bin/bash
+
+PROJECT_ROOT=$1
+SOURCE_FILE=$2
+DESTINATION_FILE=$3
+CODE_ROOT="${PROJECT_ROOT}/code"
+EXTERNAL_ROOT="${PROJECT_ROOT}/external"
+
+echo ${DESTINATION_FILE}
+
+ADDIOTIONAL_PATHS=\
+"${CODE_ROOT}/BotCore \
+${CODE_ROOT}/BotApp"
+
+python3 ${EXTERNAL_ROOT}/one-cpp-packer/OneCppPacker.py -src ${SOURCE_FILE} -dst ${DESTINATION_FILE} -addp ${ADDIOTIONAL_PATHS}

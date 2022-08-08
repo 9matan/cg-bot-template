@@ -1,6 +1,8 @@
 #include "Optimizations.h"
+#include "BotCore_PCH.h"
 
 int main()
 {
-	return 0;
+    printf("Hello from Bot!");
+    return 0;
 }
